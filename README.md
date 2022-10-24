@@ -14,4 +14,4 @@ Made by Mathias Parking
 - Unit tests are found in the *src/test/java/unit/servicelayer* folder. These contain tests using Junit and Mockito.
 ### Integration tests
 - Integration tests for the datalayer and service layer respectively, are found in the *src/test/java/integration* folder. 
-These tests are made possible with the use of Flyway and Testcontainers.
+These tests are made possible with the use of Flyway and Testcontainers. All 4 sql migration scripts are run before these tests, to ensure a consistent database testing environment.
